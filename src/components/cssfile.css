@@ -63,7 +63,7 @@ html {
   grid-template-columns: 1fr 1fr 1fr 1fr;
   /* grid-template: repeat(4, minmax(67px, 1fr)) / repeat(4, minmax(50px, 1fr)); */
   gap: 0.7rem;
-  column-gap: 0.2rem;
+  column-gap: 0;
   transform: translateY(0.7rem);
   place-items: center;
 }
@@ -81,7 +81,7 @@ html {
   border-radius: 100px;
   background: #d9dedb;
   color: #202020;
-  box-shadow: 5px 5px 11px #9b9b9b, -5px -5px 11px #868686;
+  box-shadow: 5px 5px 11px #c8c6c6, -5px -5px 11px #bebebe;
 }
 
 .button:hover {
